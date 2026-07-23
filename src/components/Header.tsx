@@ -44,19 +44,27 @@ export default function Header() {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "glass shadow-lg" : "bg-transparent"}`}>
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <a href="#hero" className="flex items-center gap-3 group shrink-0">
-          <svg width="36" height="36" viewBox="0 0 100 100" className="text-gold">
-            <defs>
-              <linearGradient id="logoG" x1="0%" y1="100%" x2="100%" y2="0%">
-                <stop offset="0%" stopColor="#d4a843" />
-                <stop offset="100%" stopColor="#1e4a8a" />
-              </linearGradient>
-            </defs>
-            <polygon points="50,5 95,85 5,85" fill="none" stroke="url(#logoG)" strokeWidth="4" />
-            <polygon points="50,25 80,75 20,75" fill="none" stroke="url(#logoG)" strokeWidth="2.5" opacity="0.6" />
-            <circle cx="50" cy="55" r="8" fill="url(#logoG)" />
-          </svg>
-          <span className="font-display text-2xl tracking-widest text-theme">ARAMACHINE</span>
+        
+        {/* بخش لوگو و نام برند با تنظیمات موقعیت و رنگ زرد */}
+        <a 
+          href="#hero" 
+          className={`flex items-center group shrink-0 cursor-pointer transition-transform duration-500 translate-y-1 ${
+            lang === "fa" ? "lg:-translate-x-10" : "lg:translate-x-10"
+          }`}
+        >
+          <img
+            src="/images/logo.jpg"
+            alt="AraMachine Logo"
+            className="h-20 lg:h-24 w-auto object-contain relative z-10 transition-transform duration-500 group-hover:scale-105 drop-shadow-[0_0_8px_rgba(212,168,67,0.3)]"
+          />
+          <div className="grid overflow-hidden transition-all duration-500 ease-in-out grid-cols-[0fr] opacity-0 group-hover:grid-cols-[1fr] group-hover:opacity-100">
+            <div className="min-w-0 flex items-center pl-2">
+              <span className="font-display text-xl tracking-widest whitespace-nowrap">
+                <span className="text-gold font-bold">ARA</span>{" "}
+                <span className="text-gold font-semibold">MACHINE</span>
+              </span>
+            </div>
+          </div>
         </a>
 
         <nav className="hidden lg:flex items-center gap-8">

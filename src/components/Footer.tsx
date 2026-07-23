@@ -45,10 +45,12 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-theme">
-          <p className="text-[10px] uppercase tracking-[0.2em] text-faint">&copy; {new Date().getFullYear()} ARAMACHINE. {t("footer.copyright")}</p>
+        
+        {/* خط کپی‌رایت از اینجا پاک شد و شعار سایت وسط‌چین شد */}
+        <div className="flex flex-col sm:flex-row items-center justify-center pt-8 border-t border-theme">
           <p className="text-[10px] uppercase tracking-[0.2em] text-faint">{t("footer.motto")}</p>
         </div>
+        
       </div>
     </footer>
   )

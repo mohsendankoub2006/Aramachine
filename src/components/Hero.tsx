@@ -11,7 +11,7 @@ const slides = [
     subtitleKey: "slide.1.subtitle",
     captionKey: "slide.1.caption",
     gradient: "from-[#0a1628] via-[#1a3a6a] to-[#0a1628]",
-    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/image.jpg",
     ornament: (
       <svg viewBox="0 0 400 400" className="absolute inset-0 w-full h-full opacity-[0.07]">
         <defs><linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#d4a843"/><stop offset="100%" stopColor="#1e4a8a"/></linearGradient></defs>
@@ -26,7 +26,7 @@ const slides = [
     subtitleKey: "slide.2.subtitle",
     captionKey: "slide.2.caption",
     gradient: "from-[#0a1628] via-[#e85d04]/20 to-[#0a1628]",
-    image: "https://images.unsplash.com/photo-1541888946425-d81bb1475f52?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/image2.jpg",
     ornament: (
       <svg viewBox="0 0 400 400" className="absolute inset-0 w-full h-full opacity-[0.07]">
         <defs><linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stopColor="#e85d04"/><stop offset="100%" stopColor="#d4a843"/></linearGradient></defs>
@@ -40,7 +40,7 @@ const slides = [
     subtitleKey: "slide.3.subtitle",
     captionKey: "slide.3.caption",
     gradient: "from-[#0a1628] via-[#1a3060] to-[#0a1628]",
-    image: "https://images.unsplash.com/photo-1563770660941-20978e870e7f?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/image3.jpg",
     ornament: (
       <svg viewBox="0 0 400 400" className="absolute inset-0 w-full h-full opacity-[0.07]">
         <defs><linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#c8c8c8"/><stop offset="100%" stopColor="#1e4a8a"/></linearGradient></defs>
@@ -54,7 +54,7 @@ const slides = [
     subtitleKey: "slide.4.subtitle",
     captionKey: "slide.4.caption",
     gradient: "from-[#0a1628] via-[#0f2240] to-[#0a1628]",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/image5.jpg", 
     ornament: (
       <svg viewBox="0 0 400 400" className="absolute inset-0 w-full h-full opacity-[0.07]">
         <defs><linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#c8c8c8"/><stop offset="100%" stopColor="#0a1628"/></linearGradient></defs>
@@ -68,7 +68,7 @@ const slides = [
     subtitleKey: "slide.5.subtitle",
     captionKey: "slide.5.caption",
     gradient: "from-[#0a1628] via-[#d4a843]/15 to-[#0a1628]",
-    image: "https://images.unsplash.com/photo-1563694982-5b4a3b2c8a7e?auto=format&fit=crop&w=1400&q=80",
+    image: "/images/image4.jpg",
     ornament: (
       <svg viewBox="0 0 400 400" className="absolute inset-0 w-full h-full opacity-[0.07]">
         <polygon points="200,30 370,150 310,320 90,320 30,150" fill="none" stroke="#d4a843" strokeWidth="0.5" />
